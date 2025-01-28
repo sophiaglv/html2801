@@ -1,0 +1,21 @@
+.info{
+    color: white;
+    margin: 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgba(0, 0, 0, 0.614) 2px 1px;
+    background-color: rgba(9, 9, 44, 0.614);
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.info p{
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.info img{
+    width: 300px;
+}

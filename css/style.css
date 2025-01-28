@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Maitree:wght@200;300;400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Quicksand", serif;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+li {
+    margin-right: 25px;
+    text-shadow: rgba(0, 0, 0, 0.416) 1px 1px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.cor a{
+    color: rgb(42, 24, 95);
+}
+
+.menu {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    margin-left: 25px;
+    font-size: 2.2rem;
+    text-shadow: rgba(0, 0, 0, 0.416) 1px 1px;
+}
+
+.info{
+    color: white;
+    margin: 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: rgba(0, 0, 0, 0.614) 2px 1px;
+    background-color: rgba(9, 9, 44, 0.614);
+    border-radius: 10px;
+}
+
+.info h1{
+    font-size: 2.5rem;
+}
+
+.info p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media screen and (max-width:599px) {
+    .menu {
+        visibility: hidden;
+    }
+}
